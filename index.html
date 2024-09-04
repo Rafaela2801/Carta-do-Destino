@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Carta do Destino</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo-0.png" alt="imagem de fundo">
+            <p>Você começa em sua aldeia pertencente a igreja , onde enconta um antigo baralho que pode tirar horas da vida de um dos jogadores.Com um poder tão grande em mãos, você deve decidir se usará o baralho ou não, a utilizacão do mesmo poderá trazer consequências</p>
+            <button class="btn-proximo" data-proximo="1">Abrir o baralho</button>
+            <button class="btn-proximo" data-proximo="2">Não abrir o baralho</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você encontra as regras do baralho, e lê para saber como utilizar, e dentro do baralho a uma carta em branco, escrita uma frase em uma lingua desconhecida por você.</p>
+            <button class="btn-proximo" data-proximo="3">Pesquisar a tradução.</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar a carta</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide levar para casa e mostrar para seu colega de quarto, e o mesmo fala para entregar para a igreja o baralho</p>
+            <button class="btn-proximo" data-proximo="5">Não dá para a igreja.</button>
+            <button class="btn-proximo" data-proximo="6">Levar para a igreja.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao levar a carta para a biblioteca e compara a escrita com algumas linguagens você descobre o que estava escrito na carta.</p>
+            <button class="btn-proximo" data-proximo="7">Ver o que está escrito.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo-4.png" alt="imagem sendo atropelado">
+            <p>Você decide levar o baralho para jogar com seus amigo, mas acaba sendo atropelado pelo padre e morre.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Ao não levar o baralho a igreja você decide abrir, acha uma carta branca e procura o que está escrito nela.</p>
+            <button class="btn-proximo" data-proximo="7">Ver o que está escrito.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>A igreja pega o baralho e decide tacar fogo, por a mesma mencionar a morte de alguém.</p>
+           
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>"In unoquoque ludo lusit, victor eligit aliquem ut horas e vita alicuius capiat, in casu paritatis quilibet lusor 30 minutas amittit".
+            “Em cada jogo disputado, o vencedor escolhe alguém para tirar horas da vida de alguém, em caso de empate cada jogador perde 30 minutos.”
+          *Escolher o tempo de vida retirado em 50 segundos</p>
+            <button class="btn-proximo" data-proximo="9">Tenta jogar sozinho</button>
+            <button class="btn-proximo" data-proximo="10">Convida alguém para jogar</button>
+            <button class="btn-proximo" data-proximo="11">Desisti de jogar</button>
+        
+
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>END GAME</p>
+        
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ao tentar jogar percebe que as cartas têm efeitos alterados. Em vez de competir contra outros jogadores, você deve lidar com cartas que manipulam seu próprio destino. Por exemplo, uma carta pode q fazer reviver eventos dolorosos do passado ou enfrentar visões de possíveis futuros catastróficos</p>
+            <button class="btn-proximo" data-proximo="11"> CONTINUAR</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você decide chamar seu colega de quarto para jogar, mas sem contar a verdadeira regra</p>
+            <button class="btn-proximo" data-proximo="12"> CONTINUAR</button>
+                
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Você tenta parar de jogar mas começa a sentir uma dor no peito e morre de ataque cardiaco</p>
+            <img src="cenario-passo-11.png" alt="END GAME">
+           
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Durante o jogo você começa a perde e seu amigo pergunta o pq de voce está tao nervoso, você assite seu amigo retirar a carta branca de seu baralho e pergunta o que a mesma faz.</p>
+            <button class="btn-proximo" data-proximo="13">Responder</button>
+            <button class="btn-proximo" data-proximo="14">Não responder</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Você conta a utilidade e diz ao mesmo que não tem como parar o jogo com dois jogadores antes de um vencer, ou os dois morrem.</p>
+            <button class="btn-proximo" data-proximo="15">CONTINUAR</button>
+       
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Seu amigo demora a decidir se  joga ou não a Carta e  sua demora ocasiona, ambas as mortes.</p>
+           
+        </div>
+        <div class="passo" id="passo-15">
+            <p>Vocês brigam ao terminar o jogo, vc n se importa tanto em perder esse tempo da usa vida acreditando que não fará diferença.</p>
+                <button class="btn-proximo" data-proximo="16">A</button>
+                <button class="btn-proximo" data-proximo="17">B</button>
+            </div>
+        <div class="passo" id="passo-16">
+            <p>Se passaram 48h desde que você e seu amigo jogaram, seu amigo decide ir conversar com você, mas escontra seu corpo morto na rua.</p>
+            <img src="cenario-passo-16.png" alt="END GAME">
+        </div>
+        <div class="passo" id="passo-17">
+            <p>Você estava em coma, e sonhou com tudo isso!</p>
+            <img src="cenario-passo-17..png" alt="END GAME">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
